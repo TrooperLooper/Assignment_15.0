@@ -1,3 +1,48 @@
-.col {
-    background-color: blueviolet;
+
+.headline {
+    text-align: center;
+    margin: 40px;
 }
+
+body {
+    background-color: black;
+}
+
+.text-block {
+    padding-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-maintxt {
+    width: auto;
+    display: flex;
+    justify-content: center;
+text-align: center;
+}
+why is this not centered if i dont need to add width?
+
+.icon {
+    text-align: center;
+}
+
+.card-title {
+    padding-bottom: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 100000px;
+    background-color: pink;
+}
+
+/* 
+.card {
+    background-color: gold;
+} */
