@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe4e1; /* Soft pink tone */
+  background-color: #ffe4e1;
 }
 .side-navbar {
   background-color: hotpink;
@@ -8,6 +8,11 @@ body {
   padding: 20px;
   position: fixed;
   width: 200px;
+}
+.side-navbar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .side-navbar a {
   color: white;
@@ -18,17 +23,13 @@ body {
 .side-navbar a:hover {
   text-decoration: underline;
 }
-.main-content {
-  margin-left: 220px; /* Adjust for side navbar width */
-  padding: 20px;
-}
 .icon {
   display: block;
-  margin: 0 auto; /* Center horizontally */
-  padding-top: 20px; /* Adjust for vertical centering */
+  margin: 0 auto;
+  padding-top: 20px;
 }
-
-.row {
-  gap: 8px; /* Adds 8px space between columns and rows */
-  margin: 8px; /* Adds 8px margin around the entire row */
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
